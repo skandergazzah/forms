@@ -30,7 +30,7 @@ function showalert()
     else if (!regex.test(email)){
         window.alert("Doesn't have a valid e-mail adress") 
     }
-    else if (!strongRegex.text(pass)){
+    else if (!strongRegex.test(pass)){
         window.alert("The password must be a combination of charatacters , numbers and at least a capital letter")
     }
 
